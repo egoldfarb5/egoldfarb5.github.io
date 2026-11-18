@@ -2,7 +2,7 @@
 *{box-sizing:border-box;margin:0}
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--blush);font:17px/1.65 'DM Sans',system-ui,sans-serif;min-height:100vh}
-h1,h2,h3{font-family:'Syne','DM Sans',sans-serif;color:#fff;line-height:1.1;letter-spacing:-.02em}
+h1,h2,h3{font-family:'IBM Plex Serif',serif;color:#fff;line-height:1.1;letter-spacing:-.02em}
 h1{font-size:clamp(2.8rem,9vw,6.5rem);font-weight:800;text-shadow:0 0 28px rgba(255,46,147,.55)}
 h2{font-size:clamp(2rem,5vw,3.2rem);margin-bottom:1rem;text-shadow:0 0 18px rgba(255,46,147,.4)}
 h3{font-size:1.25rem}
@@ -32,7 +32,7 @@ footer{padding:2rem 5vw;border-top:1px solid var(--line);color:var(--mute);displ
 #splash h1::after{content:'|';animation:blink .7s steps(1) infinite;color:var(--pink)}
 @keyframes blink{50%{opacity:0}}
 .hero{min-height:68vh;display:flex;flex-direction:column;justify-content:center}
-.tag{font:600 clamp(1.1rem,3vw,1.8rem) 'Syne',sans-serif;color:var(--hot);min-height:2.2em;margin-top:1rem}
+.tag{font:400 clamp(1.1rem,3vw,1.8rem) 'Libre Caslon Text',serif;color:var(--hot);min-height:2.2em;margin-top:1rem}
 .tag::after{content:'|';animation:blink .7s steps(1) infinite}
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1rem;margin-top:3rem}
 .stat{border-left:3px solid var(--pink);padding:.4rem 1rem}

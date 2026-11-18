@@ -1,9 +1,9 @@
 // ===== EDIT YOUR LINKS HERE =====
-const LINKS={email:'emmaleighgold@gmail.com',linkedin:'https://linkedin.com/in/emmaleigh-goldfarb',github:'https://github.com/YOUR-USERNAME',wcrl:'https://wcrl.github.io/'};
+const LINKS={email:'emmaleighgold@gmail.com',linkedin:'https://linkedin.com/in/emmaleigh-goldfarb',github:'https://github.com/egoldfarb5',wcrl:'https://wcrl.github.io/'};
 const PAGES=[['index.html','Home'],['projects.html','Projects'],['resume.html','Resume'],['skills.html','Skills']];
 const here=location.pathname.split('/').pop()||'index.html';
 document.body.insertAdjacentHTML('afterbegin',`<canvas id="bg" aria-hidden="true"></canvas><nav><a class="logo" href="index.html">EG</a><ul>${PAGES.map(([h,n])=>`<li><a href="${h}"${h===here?' aria-current="page"':''}>${n}</a></li>`).join('')}</ul></nav>`);
-document.body.insertAdjacentHTML('beforeend',`<footer><a href="mailto:${LINKS.email}">Email</a><a href="${LINKS.linkedin}">LinkedIn</a><a href="${LINKS.github}">GitHub</a><span>© ${new Date().getFullYear()} Emmaleigh Goldfarb</span></footer>`);
+document.body.insertAdjacentHTML('beforeend',`<footer><a href="mailto:${LINKS.email}">Email</a><a href="${LINKS.linkedin}">LinkedIn</a><span>© ${new Date().getFullYear()} Emmaleigh Goldfarb</span></footer>`);
 const calm=matchMedia('(prefers-reduced-motion:reduce)').matches;
 // particle background
 (()=>{const c=document.getElementById('bg'),x=c.getContext('2d');let w,h,p=[];
